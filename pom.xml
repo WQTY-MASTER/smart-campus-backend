@@ -27,6 +27,13 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!-- EasyExcel：用于导出选课名单 Excel -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>easyexcel</artifactId>
+            <version>3.3.4</version>
+        </dependency>
+
         <!-- 添加Jackson的Java 8日期/时间模块：解决LocalDateTime等日期类型序列化问题 -->
         <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>
